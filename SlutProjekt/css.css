@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgba(0, 8, 37, 0.795);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: aliceblue;
+    margin: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .left_side{
+    position: relative;
+    background-color: rgb(9, 47, 153);
+    padding: 40px;
+}
+
+.profile_text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.796);
+
+}
+
+.profile_text .img_box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_text .img_box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 180%;
+    object-fit: cover;
+}
+
+.profile_text h2{
+    color: rgba(0, 0, 0, 0.721);
+    font-size: 1.5em;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 1.15em;
+}
+
+.profile_text h2 span{
+    font-size: 0.75em;
+    font-weight: 300;
+}
+
+.contact_info{
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.796);
+}
+
+.title{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+
+.contact_info ul{
+    position: relative;
+}
+
+.contact_info ul li{
+    list-style: disc;
+    margin: 8px 0;
+    cursor: default;
+}
+
+.contact_info ul li span{
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.contact_info ul li span a{
+    text-decoration: dashed;
+    color: aliceblue;
+}
+
+.contact_info_education{
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.796);
+}
+
+.contact_info_education li{
+    margin-bottom: 15px;
+}
+
+.contact_info_education h3{
+    color: aliceblue;
+    margin: 5px;
+}
+
+.contact_info_education h4{
+    color: aliceblue;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.container .right_side{
+    position: relative;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.title_right{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 138);
+    margin-bottom: 10px;
+}
+
+.title_right p{
+    font-size: medium;
+    color: black;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+
+}
+
+.about .box .year_doing_it{
+    min-width: 150px;
+
+}
+
+.about .box .year_doing_it h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color: rgb(34, 122, 223);
+    font-size: large;
+}
+
+.about .box .text p{
+    text-transform: none;
+}
+
+.about .box ul{
+    position: relative;
+}
+
+.about .box ul li{
+    list-style: disc;
+    margin: 8px 0;
+    cursor: default;
+    font-size: larger;
+    list-style: circle;
+}

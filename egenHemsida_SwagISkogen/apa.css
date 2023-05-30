@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+}
+
+body {
+    background-image: url("img/swagapa.png");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    
+}

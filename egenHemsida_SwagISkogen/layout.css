@@ -1,0 +1,40 @@
+body {
+    background-color: darkblue;
+    margin: 100px 0 0 100px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .vitBox {
+    background-color: #fff;
+    height: 1000px;
+  }
+  
+  .projektBoxar {
+    width: 270px;
+    height: 130px;
+    background-color: rgb(3, 104, 3);
+    text-align: center;
+    padding: 30px 80px;
+    float: left;
+    margin: 30px 0 30px 30px;
+  }
+  .skog {
+    width: 270px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px 80px;
+    float: left;
+    margin: 30px 0 30px 30px;
+  }
+  
+  
+  .projektBoxar:hover {
+    background-color: rgb(62, 130, 62);
+    color: #fff;
+  }
+  
+  .projektBoxar {
+    color: rgb(0, 0, 0);
+  }
+  

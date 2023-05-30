@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+h1{
+  text-align: center;
+  color: darkgreen;
+  padding: 20px;
+}
+
+nav {
+  background-color: red;
+  display: grid;
+  place-items: center;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav ul a{
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+  transition: 0.1s ease-in;
+  font-size: 18px;
+}
+
+nav ul a:hover{
+  background-color: darkred;
+  color: white;
+}
+
+.meny {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.mat-grupp {
+  margin: 0;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.meny-grupp {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.meny-sak {
+  display: flex;
+}
+
+.meny-sak-bild {
+  width: 125px;
+  height: 125px;
+  flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5rem;
+}
+
+.meny-sak-text {
+  flex-grow: 1;
+}
+
+.meny-sak-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.meny-sak-namn {
+  margin-right: 1.5rem;
+}
+
+.meny-sak-undertext {
+  line-height: 1.5;
+}
+
+.apa-bild {
+  width: 100%;
+}
